@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#header nav {
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+#header nav .box-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#header nav #menu {
+    display: flex;
+    align-items: center;
+}
+
+#menu li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#header nav .box-cart {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+.box-cart i {
+    font-size: 25px;
+}
+
+#wp-content {
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+#main-product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#main-product li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#main-product li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cebfbf;
+    width: 230px;
+    height: 270px;
+}
+
+#main-product li a .image {
+    width: 230px;
+    height: 130px;
+    background-color: #cebfbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-product li a h5 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#main-product li a span {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#main-product li a button {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#main-cart {
+    margin: 20px 0px;
+}
+
+#main-cart li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#main-cart li input {
+    margin-right: 20px;
+}
+
+#main-cart li .title {
+    width: 200px;
+}
+
+#main-cart li .number {
+    display: flex;
+    margin: 0px 100px;
+    align-items: center;
+}
+
+#main-cart li .number button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+}
+
+#main-cart li span.quantity {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #f3eeee;
+    line-height: 30px;
+}
+
+#main-cart li .price {
+    width: 100px;
+}
+
+.box-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
